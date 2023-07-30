@@ -1,4 +1,10 @@
-const contacts = require('./contacts');
+const {
+    listContacts,
+    getContactById,
+    removeContact,
+    addContact
+} = require('./contacts');
 
-console.log(contacts.addContact);
-console.log(contacts.getContactById);
+
+// listContacts();
+getContactById('5');
