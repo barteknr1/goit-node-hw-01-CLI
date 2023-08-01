@@ -9,7 +9,7 @@ const listContacts = async () => {
     const contacts = JSON.parse(data);
     return contacts;
   }
-  catch {
+  catch (err) {
     err => console.log(err.message);
   }
 }
@@ -25,7 +25,7 @@ const getContactById = async (contactId) => {
       return `Contact with the provided ID was not found.`.bgYellow
     }
   }
-  catch {
+  catch (err) {
     err => console.log(err.message);
   }
 }
@@ -44,7 +44,7 @@ const removeContact = async (contactId) => {
       return `Contact with the provided ID was not found.`.bgYellow
     }
   }
-  catch {
+  catch (err){
     err => console.log(err.message)
   }
 }
@@ -63,7 +63,7 @@ const addContact = async (name, email, phone) => {
       return `Not enough data.`.bgYellow
     }
   }
-  catch {
+  catch (err){
     err => console.log(err.message);
   }
 }
