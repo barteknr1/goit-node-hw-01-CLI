@@ -12,7 +12,7 @@ const listContacts = async () => {
   catch (err) {
     err => console.log(err.message);
   }
-}
+};
 
 const getContactById = async (contactId) => {
   try {
@@ -28,7 +28,7 @@ const getContactById = async (contactId) => {
   catch (err) {
     err => console.log(err.message);
   }
-}
+};
 
 const removeContact = async (contactId) => {
   try {
@@ -44,10 +44,10 @@ const removeContact = async (contactId) => {
       return `Contact with the provided ID was not found.`.bgYellow
     }
   }
-  catch (err){
+  catch (err) {
     err => console.log(err.message)
   }
-}
+};
 
 const addContact = async (name, email, phone) => {
   try {
@@ -63,10 +63,10 @@ const addContact = async (name, email, phone) => {
       return `Not enough data.`.bgYellow
     }
   }
-  catch (err){
+  catch (err) {
     err => console.log(err.message);
   }
-}
+};
 
 module.exports = {
     listContacts,
