@@ -1,8 +1,8 @@
-#List:
-https://ibb.co/HGD5tNg
-#Get by ID:
-https://ibb.co/y48Fj1r
-#Add:
-https://ibb.co/LvJq7q2
-#Delete:
-https://ibb.co/yFBRYcQ
+# List:
+https://ibb.co/2n0g6SS
+# Get by ID:
+https://ibb.co/ckr9z7Q
+# Add:
+https://ibb.co/rmX6QrN
+# Delete:
+https://ibb.co/yYck2sT
