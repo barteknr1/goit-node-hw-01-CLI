@@ -10,7 +10,7 @@ const listContacts = async () => {
     return contacts;
   }
   catch (err) {
-    err => console.log(err.message);
+    console.log(err.message);
   }
 };
 
@@ -26,7 +26,7 @@ const getContactById = async (contactId) => {
     }
   }
   catch (err) {
-    err => console.log(err.message);
+    console.log(err.message);
   }
 };
 
@@ -45,7 +45,7 @@ const removeContact = async (contactId) => {
     }
   }
   catch (err) {
-    err => console.log(err.message)
+    console.log(err.message)
   }
 };
 
@@ -64,7 +64,7 @@ const addContact = async (name, email, phone) => {
     }
   }
   catch (err) {
-    err => console.log(err.message);
+    console.log(err.message);
   }
 };
 
