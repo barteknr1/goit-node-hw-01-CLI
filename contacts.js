@@ -52,7 +52,7 @@ const addContact = async (name, email, phone) => {
     if (name, email, phone) {
       contacts.push(newContact);
       fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
-      return `${name} has beed added.`.bgYellow
+      return `${name} has been added.`.bgYellow
     } else {
       return `Not enough data.`.bgYellow
     }
